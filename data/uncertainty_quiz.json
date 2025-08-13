@@ -1,0 +1,594 @@
+{
+  "page_title": "Uncertainty Intro Tutorial [For Physics 100/200 lab] - Google Forms",
+  "header_description": "for Hamilton Physics 100 / 200 lab.\n\nA tutorial to teach students about uncertainty and propagation of uncertainty.",
+  "questions": [
+    {
+      "raw_text": "JavaScript isn't enabled in your browser, so this file can't be opened. Enable and reload.\nUncertainty Intro Tutorial [For Physics 100/200 lab]\nAll changes saved in Drive\nCopy responder link\nShorten URL\nCopy\nPublished\nUncertainty Intro Tutorial [For Physics 100/200 lab]\nQuestions\nResponses\n3\nSettings\nTotal points: 25"
+    },
+    {
+      "raw_text": "Uncertainty Intro Tutorial [For Physics 100/200 lab]\nAll changes saved in Drive\nCopy responder link\nShorten URL\nCopy\nPublished\nUncertainty Intro Tutorial [For Physics 100/200 lab]\nQuestions\nResponses\n3\nSettings\nTotal points: 25"
+    },
+    {
+      "raw_text": "Questions\nResponses\n3\nSettings\nTotal points: 25"
+    },
+    {
+      "raw_text": "Total points: 25"
+    },
+    {
+      "raw_text": "Form title\nAn Introduction to Error Analysis\n\n\n\n\n\nForm description\nfor Hamilton Physics 100 / 200 lab.\nA tutorial to teach students about uncertainty and propagation of uncertainty.\n\n\n\n\n\n\n\nEmail\n*\nValid email\nThis form is automatically collecting emails from all respondents.\nChange settings"
+    },
+    {
+      "raw_text": "Form title\nAn Introduction to Error Analysis\n\n\n\n\n"
+    },
+    {
+      "raw_text": "Form title\nAn Introduction to Error Analysis"
+    },
+    {
+      "raw_text": "An Introduction to Error Analysis"
+    },
+    {
+      "raw_text": "(optional) What is your current understanding of uncertainty in measurements?"
+    },
+    {
+      "raw_text": "Question\n(optional) What is your current understanding of uncertainty in measurements?"
+    },
+    {
+      "raw_text": "(optional) Which of the following topics are you most interested in learning about regarding uncertainty?"
+    },
+    {
+      "raw_text": "Question\n(optional) Which of the following topics are you most interested in learning about regarding uncertainty?"
+    },
+    {
+      "raw_text": "Do physicists care about estimating uncertainty for their measurements?"
+    },
+    {
+      "raw_text": "After section 1\nContinue to next section\nGo to section 1 (An Introduction to Error Analysis )\nGo to section 2 (Precision and Accuracy)\nGo to section 3 (Uncertainty as a r...believable values)\nGo to section 4 (Estimating uncerta...r one measurement)\nGo to section 5 (Range method: Esti...iple measurements)\nGo to section 6 (Standard deviation...sian distribution)\nGo to section 7 (Standard Form)\nSubmit form"
+    },
+    {
+      "raw_text": "Continue to next section\nGo to section 1 (An Introduction to Error Analysis )\nGo to section 2 (Precision and Accuracy)\nGo to section 3 (Uncertainty as a r...believable values)\nGo to section 4 (Estimating uncerta...r one measurement)\nGo to section 5 (Range method: Esti...iple measurements)\nGo to section 6 (Standard deviation...sian distribution)\nGo to section 7 (Standard Form)\nSubmit form"
+    },
+    {
+      "raw_text": "Go to section 1 (An Introduction to Error Analysis )"
+    },
+    {
+      "raw_text": "Go to section 3 (Uncertainty as a r...believable values)"
+    },
+    {
+      "raw_text": "Go to section 7 (Standard Form)"
+    },
+    {
+      "raw_text": "Suppose to conduct N trials of an experiment and take the average of all your measurements to find a good value. As N increases, your value will get better. Why?"
+    },
+    {
+      "raw_text": "After section 2\nContinue to next section\nGo to section 1 (An Introduction to Error Analysis )\nGo to section 2 (Precision and Accuracy)\nGo to section 3 (Uncertainty as a r...believable values)\nGo to section 4 (Estimating uncerta...r one measurement)\nGo to section 5 (Range method: Esti...iple measurements)\nGo to section 6 (Standard deviation...sian distribution)\nGo to section 7 (Standard Form)\nSubmit form"
+    },
+    {
+      "raw_text": "Section title (optional)\nUncertainty as a range of believable values\n\n\n\n\n\nDescription (optional)\n\"Tomorrow the highs will be in the 70s.\"\n\"It's about 4 and a half hours to New York City.\"\n\"We'll be ready in 5 to 7 business days.\"\nEach of the above uncertain predictions can be communicated as range or as a best value and an uncertainty.\nIn physics, we prefer to give the best value and uncertainty using the plus or minus (±) symbol.\nFor example:\n\"55 ± 4 m\" means the best value is 55 meters and the believable range is 51 to 59 meters.\nYou will almost always use uncertainty as a measure of the random error, not the systematic error, though it can be used for both.\n\n\n\n\n\n\n"
+    },
+    {
+      "raw_text": "Section title (optional)\nUncertainty as a range of believable values\n\n\n\n\n"
+    },
+    {
+      "raw_text": "Section title (optional)\nUncertainty as a range of believable values"
+    },
+    {
+      "raw_text": "Uncertainty as a range of believable values"
+    },
+    {
+      "raw_text": "Description (optional)\n\"Tomorrow the highs will be in the 70s.\"\n\"It's about 4 and a half hours to New York City.\"\n\"We'll be ready in 5 to 7 business days.\"\nEach of the above uncertain predictions can be communicated as range or as a best value and an uncertainty.\nIn physics, we prefer to give the best value and uncertainty using the plus or minus (±) symbol.\nFor example:\n\"55 ± 4 m\" means the best value is 55 meters and the believable range is 51 to 59 meters.\nYou will almost always use uncertainty as a measure of the random error, not the systematic error, though it can be used for both.\n\n\n\n\n\n\n"
+    },
+    {
+      "raw_text": "Description (optional)\n\"Tomorrow the highs will be in the 70s.\"\n\"It's about 4 and a half hours to New York City.\"\n\"We'll be ready in 5 to 7 business days.\"\nEach of the above uncertain predictions can be communicated as range or as a best value and an uncertainty.\nIn physics, we prefer to give the best value and uncertainty using the plus or minus (±) symbol.\nFor example:\n\"55 ± 4 m\" means the best value is 55 meters and the believable range is 51 to 59 meters.\nYou will almost always use uncertainty as a measure of the random error, not the systematic error, though it can be used for both."
+    },
+    {
+      "raw_text": "\"Tomorrow the highs will be in the 70s.\"\n\"It's about 4 and a half hours to New York City.\"\n\"We'll be ready in 5 to 7 business days.\"\nEach of the above uncertain predictions can be communicated as range or as a best value and an uncertainty.\nIn physics, we prefer to give the best value and uncertainty using the plus or minus (±) symbol.\nFor example:\n\"55 ± 4 m\" means the best value is 55 meters and the believable range is 51 to 59 meters.\nYou will almost always use uncertainty as a measure of the random error, not the systematic error, though it can be used for both."
+    },
+    {
+      "raw_text": "Choose correct answers:\nWhat is the lowest believable value that corresponds to 6 \n± 1 days\n*\nWhat is the lowest believable value that corresponds to 6 \n± 1 days\npoints\nLoading image…\nCaption\n3 days\n4 days\n5 days\n6 days\nFeedback for correct answers\nFeedback for incorrect answers\nFeedback for all answers\nAdd answer feedback\nDone"
+    },
+    {
+      "raw_text": "What is the lowest believable value that corresponds to 6 \n± 1 days\n*"
+    },
+    {
+      "raw_text": "What is the lowest believable value that corresponds to 6 \n± 1 days"
+    },
+    {
+      "raw_text": "What is the lowest believable value that corresponds to 6 \n± 1 days\npoints\nLoading image…\nCaption\n3 days\n4 days\n5 days\n6 days\nFeedback for correct answers\nFeedback for incorrect answers\nFeedback for all answers\nAdd answer feedback\nDone"
+    },
+    {
+      "raw_text": "What is the lowest believable value that corresponds to 6 \n± 1 days\npoints"
+    },
+    {
+      "raw_text": "Choose correct answers:\n\"Tomorrow the highs will be in the 70s.\" Please pick the best way to interpret this temperature.\n*\n\"Tomorrow the highs will be in the 70s.\" Please pick the best way to interpret this temperature.\npoints\nLoading image…\nCaption\n75 ± 5 ºF\n75 ± 5 ºC\n70 ± 10 ºF\n70 ± 10 ºC\n80 ± 10 ºF\nFeedback for correct answers\nFeedback for incorrect answers\nFeedback for all answers\nAdd answer feedback\nDone"
+    },
+    {
+      "raw_text": "\"Tomorrow the highs will be in the 70s.\" Please pick the best way to interpret this temperature.\npoints\nLoading image…\nCaption\n75 ± 5 ºF\n75 ± 5 ºC\n70 ± 10 ºF\n70 ± 10 ºC\n80 ± 10 ºF\nFeedback for correct answers\nFeedback for incorrect answers\nFeedback for all answers\nAdd answer feedback\nDone"
+    },
+    {
+      "raw_text": "Loading image…\nCaption\n75 ± 5 ºF\n75 ± 5 ºC\n70 ± 10 ºF\n70 ± 10 ºC\n80 ± 10 ºF\nFeedback for correct answers\nFeedback for incorrect answers\nFeedback for all answers\nAdd answer feedback"
+    },
+    {
+      "raw_text": "Loading image…\nCaption\n75 ± 5 ºF\n75 ± 5 ºC\n70 ± 10 ºF\n70 ± 10 ºC\n80 ± 10 ºF"
+    },
+    {
+      "raw_text": "75 ± 5 ºF\n75 ± 5 ºC\n70 ± 10 ºF\n70 ± 10 ºC\n80 ± 10 ºF"
+    },
+    {
+      "raw_text": "75 ± 5 ºF"
+    },
+    {
+      "raw_text": "75 ± 5 ºC"
+    },
+    {
+      "raw_text": "70 ± 10 ºF"
+    },
+    {
+      "raw_text": "70 ± 10 ºC"
+    },
+    {
+      "raw_text": "80 ± 10 ºF"
+    },
+    {
+      "raw_text": "What is the highest believable value that corresponds to \n\n385000 ±\n\n1000 km?\n(The distance to the moon!)\n(Please use km as your units and include the units in your answer.)\n*\nQuestion\nWhat is the highest believable value that corresponds to \n\n385000 ±\n\n1000 km?\n(The distance to the moon!)\n(Please use km as your units and include the units in your answer.)\n\n\n\n\n\n*\nQuestion Type\nShort answer\nParagraph\nMultiple choice\nCheckboxes\nDropdown\nFile upload\nLinear scale\nRating\nNew\nMultiple choice grid\nCheckbox grid\nDate\nTime\nDescription\n\n\n\n\n\n\n\nLoading image…\nCaption\nShort answer text\nCorrect answers:\n386000 km, 386000km, 386000 kilometers, 386000kilometers\nResponse validation has been added.\nRemove\nNumber\nText\nLength\nRegular expression\nGreater than\nGreater than or equal to\nLess than\nLess than or equal to\nEqual to\nNot equal to\nBetween\nNot between\nIs number\nWhole number\nNumber\nand\nNumber\nCustom error text\nAnswer key\n(1 point)\nRequire a response in each row\nRequired\nRequired\nLoading...\nLoading…"
+    },
+    {
+      "raw_text": "What is the highest believable value that corresponds to \n\n385000 ±\n\n1000 km?\n(The distance to the moon!)\n(Please use km as your units and include the units in your answer.)\n*\nQuestion\nWhat is the highest believable value that corresponds to \n\n385000 ±\n\n1000 km?\n(The distance to the moon!)\n(Please use km as your units and include the units in your answer.)\n\n\n\n\n\n*\nQuestion Type\nShort answer\nParagraph\nMultiple choice\nCheckboxes\nDropdown\nFile upload\nLinear scale\nRating\nNew\nMultiple choice grid\nCheckbox grid\nDate\nTime\nDescription\n\n\n\n\n\n\n\nLoading image…\nCaption\nShort answer text\nCorrect answers:\n386000 km, 386000km, 386000 kilometers, 386000kilometers\nResponse validation has been added.\nRemove\nNumber\nText\nLength\nRegular expression\nGreater than\nGreater than or equal to\nLess than\nLess than or equal to\nEqual to\nNot equal to\nBetween\nNot between\nIs number\nWhole number\nNumber\nand\nNumber\nCustom error text\nAnswer key\n(1 point)\nRequire a response in each row\nRequired\nRequired"
+    },
+    {
+      "raw_text": "What is the highest believable value that corresponds to \n\n385000 ±\n\n1000 km?\n(The distance to the moon!)\n(Please use km as your units and include the units in your answer.)\n*\nQuestion\nWhat is the highest believable value that corresponds to \n\n385000 ±\n\n1000 km?\n(The distance to the moon!)\n(Please use km as your units and include the units in your answer.)\n\n\n\n\n\n*\nQuestion Type\nShort answer\nParagraph\nMultiple choice\nCheckboxes\nDropdown\nFile upload\nLinear scale\nRating\nNew\nMultiple choice grid\nCheckbox grid\nDate\nTime\nDescription\n\n\n\n\n\n\n"
+    },
+    {
+      "raw_text": "What is the highest believable value that corresponds to \n\n385000 ±\n\n1000 km?\n(The distance to the moon!)\n(Please use km as your units and include the units in your answer.)\n*"
+    },
+    {
+      "raw_text": "What is the highest believable value that corresponds to \n\n385000 ±\n\n1000 km?\n(The distance to the moon!)\n(Please use km as your units and include the units in your answer.)"
+    },
+    {
+      "raw_text": "Question\nWhat is the highest believable value that corresponds to \n\n385000 ±\n\n1000 km?\n(The distance to the moon!)\n(Please use km as your units and include the units in your answer.)\n\n\n\n\n\n*\nQuestion Type\nShort answer\nParagraph\nMultiple choice\nCheckboxes\nDropdown\nFile upload\nLinear scale\nRating\nNew\nMultiple choice grid\nCheckbox grid\nDate\nTime\nDescription\n\n\n\n\n\n\n"
+    },
+    {
+      "raw_text": "Question\nWhat is the highest believable value that corresponds to \n\n385000 ±\n\n1000 km?\n(The distance to the moon!)\n(Please use km as your units and include the units in your answer.)\n\n\n\n\n\n*\nQuestion Type\nShort answer\nParagraph\nMultiple choice\nCheckboxes\nDropdown\nFile upload\nLinear scale\nRating\nNew\nMultiple choice grid\nCheckbox grid\nDate\nTime"
+    },
+    {
+      "raw_text": "Question\nWhat is the highest believable value that corresponds to \n\n385000 ±\n\n1000 km?\n(The distance to the moon!)\n(Please use km as your units and include the units in your answer.)\n\n\n\n\n\n*"
+    },
+    {
+      "raw_text": "Question\nWhat is the highest believable value that corresponds to \n\n385000 ±\n\n1000 km?\n(The distance to the moon!)\n(Please use km as your units and include the units in your answer.)\n\n\n\n\n"
+    },
+    {
+      "raw_text": "Question\nWhat is the highest believable value that corresponds to \n\n385000 ±\n\n1000 km?\n(The distance to the moon!)\n(Please use km as your units and include the units in your answer.)"
+    },
+    {
+      "raw_text": "Choose correct answers:\nA student measures the voltage of a battery 10 times using a digital multimeter and obtains the following results:\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\nWhat is the best way to communicate this set of measurements?\n*\nA student measures the voltage of a battery 10 times using a digital multimeter and obtains the following results:\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\nWhat is the best way to communicate this set of measurements?\npoints\nLoading image…\nCaption\n1.5 V\n1.5 ± 0.0 V\n1.50 ± 0.05 V\nFeedback for correct answers\nFeedback for incorrect answers\nFeedback for all answers\nAdd answer feedback\nDone"
+    },
+    {
+      "raw_text": "A student measures the voltage of a battery 10 times using a digital multimeter and obtains the following results:\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\nWhat is the best way to communicate this set of measurements?\n*"
+    },
+    {
+      "raw_text": "A student measures the voltage of a battery 10 times using a digital multimeter and obtains the following results:\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\nWhat is the best way to communicate this set of measurements?"
+    },
+    {
+      "raw_text": "A student measures the voltage of a battery 10 times using a digital multimeter and obtains the following results:"
+    },
+    {
+      "raw_text": "1.5 V\n1.5 V\n1.5 V\n1.5 V\nWhat is the best way to communicate this set of measurements?"
+    },
+    {
+      "raw_text": "A student measures the voltage of a battery 10 times using a digital multimeter and obtains the following results:\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\nWhat is the best way to communicate this set of measurements?\npoints\nLoading image…\nCaption\n1.5 V\n1.5 ± 0.0 V\n1.50 ± 0.05 V\nFeedback for correct answers\nFeedback for incorrect answers\nFeedback for all answers\nAdd answer feedback\nDone"
+    },
+    {
+      "raw_text": "A student measures the voltage of a battery 10 times using a digital multimeter and obtains the following results:\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\nWhat is the best way to communicate this set of measurements?\npoints"
+    },
+    {
+      "raw_text": "Loading image…\nCaption\n1.5 V\n1.5 ± 0.0 V\n1.50 ± 0.05 V\nFeedback for correct answers\nFeedback for incorrect answers\nFeedback for all answers\nAdd answer feedback"
+    },
+    {
+      "raw_text": "Loading image…\nCaption\n1.5 V\n1.5 ± 0.0 V\n1.50 ± 0.05 V"
+    },
+    {
+      "raw_text": "1.5 V\n1.5 ± 0.0 V\n1.50 ± 0.05 V"
+    },
+    {
+      "raw_text": "1.5 ± 0.0 V"
+    },
+    {
+      "raw_text": "1.50 ± 0.05 V"
+    },
+    {
+      "raw_text": "After section 3\nContinue to next section\nGo to section 1 (An Introduction to Error Analysis )\nGo to section 2 (Precision and Accuracy)\nGo to section 3 (Uncertainty as a r...believable values)\nGo to section 4 (Estimating uncerta...r one measurement)\nGo to section 5 (Range method: Esti...iple measurements)\nGo to section 6 (Standard deviation...sian distribution)\nGo to section 7 (Standard Form)\nSubmit form"
+    },
+    {
+      "raw_text": "Choose correct answers:\nWhich is a reasonable\nmeasurement with uncertainty\nfor the paperclip?\n*\nWhich is a reasonable\nmeasurement with uncertainty\nfor the paperclip?\npoints\nCaption\nImage of paperclip and ruler. (Image credit: https://www.superteacherworksheets.com/measurement/ruler- cm1_AAAAA.pdf)\n3.75 cm\n3.75\n3.75 ± 0.05 cm\n0.05 cm\n3.75 ± 0.2 cm\nFeedback for correct answers\nFeedback for incorrect answers\nFeedback for all answers\nAdd answer feedback\nDone\nChoose correct answers:\nWhich is a reasonable\nmeasurement with uncertainty\nfor the pencil length?\n*\nWhich is a reasonable\nmeasurement with uncertainty\nfor the pencil length?\npoints\nCaption\n4.5 ± 0.5 cm\n4 ± 1 cm\n4.10 ± 0.07 cm\n4.1 ± 0.0001 cm\nFeedback for correct answers\nFeedback for incorrect answers\nFeedback for all answers\nAdd answer feedback\nDone"
+    },
+    {
+      "raw_text": "Choose correct answers:\nWhich is a reasonable\nmeasurement with uncertainty\nfor the paperclip?\n*\nWhich is a reasonable\nmeasurement with uncertainty\nfor the paperclip?\npoints\nCaption\nImage of paperclip and ruler. (Image credit: https://www.superteacherworksheets.com/measurement/ruler- cm1_AAAAA.pdf)\n3.75 cm\n3.75\n3.75 ± 0.05 cm\n0.05 cm\n3.75 ± 0.2 cm\nFeedback for correct answers\nFeedback for incorrect answers\nFeedback for all answers\nAdd answer feedback\nDone"
+    },
+    {
+      "raw_text": "Which is a reasonable\nmeasurement with uncertainty\nfor the paperclip?"
+    },
+    {
+      "raw_text": "Which is a reasonable\nmeasurement with uncertainty\nfor the paperclip?\npoints\nCaption\nImage of paperclip and ruler. (Image credit: https://www.superteacherworksheets.com/measurement/ruler- cm1_AAAAA.pdf)\n3.75 cm\n3.75\n3.75 ± 0.05 cm\n0.05 cm\n3.75 ± 0.2 cm\nFeedback for correct answers\nFeedback for incorrect answers\nFeedback for all answers\nAdd answer feedback\nDone"
+    },
+    {
+      "raw_text": "Caption\nImage of paperclip and ruler. (Image credit: https://www.superteacherworksheets.com/measurement/ruler- cm1_AAAAA.pdf)\n3.75 cm\n3.75\n3.75 ± 0.05 cm\n0.05 cm\n3.75 ± 0.2 cm\nFeedback for correct answers\nFeedback for incorrect answers\nFeedback for all answers\nAdd answer feedback"
+    },
+    {
+      "raw_text": "Caption\nImage of paperclip and ruler. (Image credit: https://www.superteacherworksheets.com/measurement/ruler- cm1_AAAAA.pdf)\n3.75 cm\n3.75\n3.75 ± 0.05 cm\n0.05 cm\n3.75 ± 0.2 cm"
+    },
+    {
+      "raw_text": "3.75 cm\n3.75\n3.75 ± 0.05 cm\n0.05 cm\n3.75 ± 0.2 cm"
+    },
+    {
+      "raw_text": "3.75 ± 0.05 cm"
+    },
+    {
+      "raw_text": "3.75 ± 0.2 cm"
+    },
+    {
+      "raw_text": "Choose correct answers:\nWhich is a reasonable\nmeasurement with uncertainty\nfor the pencil length?\n*\nWhich is a reasonable\nmeasurement with uncertainty\nfor the pencil length?\npoints\nCaption\n4.5 ± 0.5 cm\n4 ± 1 cm\n4.10 ± 0.07 cm\n4.1 ± 0.0001 cm\nFeedback for correct answers\nFeedback for incorrect answers\nFeedback for all answers\nAdd answer feedback\nDone"
+    },
+    {
+      "raw_text": "Which is a reasonable\nmeasurement with uncertainty\nfor the pencil length?"
+    },
+    {
+      "raw_text": "Which is a reasonable\nmeasurement with uncertainty\nfor the pencil length?\npoints\nCaption\n4.5 ± 0.5 cm\n4 ± 1 cm\n4.10 ± 0.07 cm\n4.1 ± 0.0001 cm\nFeedback for correct answers\nFeedback for incorrect answers\nFeedback for all answers\nAdd answer feedback\nDone"
+    },
+    {
+      "raw_text": "Caption\n4.5 ± 0.5 cm\n4 ± 1 cm\n4.10 ± 0.07 cm\n4.1 ± 0.0001 cm\nFeedback for correct answers\nFeedback for incorrect answers\nFeedback for all answers\nAdd answer feedback"
+    },
+    {
+      "raw_text": "Caption\n4.5 ± 0.5 cm\n4 ± 1 cm\n4.10 ± 0.07 cm\n4.1 ± 0.0001 cm"
+    },
+    {
+      "raw_text": "4.5 ± 0.5 cm\n4 ± 1 cm\n4.10 ± 0.07 cm\n4.1 ± 0.0001 cm"
+    },
+    {
+      "raw_text": "4.5 ± 0.5 cm"
+    },
+    {
+      "raw_text": "4 ± 1 cm"
+    },
+    {
+      "raw_text": "4.10 ± 0.07 cm"
+    },
+    {
+      "raw_text": "4.1 ± 0.0001 cm"
+    },
+    {
+      "raw_text": "After section 4\nContinue to next section\nGo to section 1 (An Introduction to Error Analysis )\nGo to section 2 (Precision and Accuracy)\nGo to section 3 (Uncertainty as a r...believable values)\nGo to section 4 (Estimating uncerta...r one measurement)\nGo to section 5 (Range method: Esti...iple measurements)\nGo to section 6 (Standard deviation...sian distribution)\nGo to section 7 (Standard Form)\nSubmit form"
+    },
+    {
+      "raw_text": "Should you use the range method in your physics lab if you have 10 trials?"
+    },
+    {
+      "raw_text": "So the answer is:\n554.6 g ± 41 g\nThat means the believable range is \n\n554.6 g - 41 g =\n513.6 g to 595.6 g.\nSince the tens place could vary all the way from 1 to 9, we don't really know ones place, so when we report the measurement in\nstandard form\n, we round to the tens place and write:\n550\n± 40 g\n.\nwhich implies that the believable range is 510 to 590 g.\n(You may note that we measured a trial that was below that range, but we approximate our range to be symmetric about the best value.)"
+    },
+    {
+      "raw_text": "550\n± 40 g\n.\nwhich implies that the believable range is 510 to 590 g.\n(You may note that we measured a trial that was below that range, but we approximate our range to be symmetric about the best value.)"
+    },
+    {
+      "raw_text": "Choose correct answers:\nHere are measurements from 5 trials:\n7.80 V\n8.65 V\n8.40 V\n7.86 V\n7.65 V\nUsing the range method, which is the average with uncertainty?\n*\nHere are measurements from 5 trials:\n7.80 V\n8.65 V\n8.40 V\n7.86 V\n7.65 V\nUsing the range method, which is the average with uncertainty?\npoints\nLoading image…\nCaption\n7.9 ± 0.4 V\n8.3 ± 0.6 V\n9.00 ± 0.04 V\n8.1 ± 0.5 V\nFeedback for correct answers\nFeedback for incorrect answers\nFeedback for all answers\nAdd answer feedback\nDone"
+    },
+    {
+      "raw_text": "Here are measurements from 5 trials:\n7.80 V\n8.65 V\n8.40 V\n7.86 V\n7.65 V\nUsing the range method, which is the average with uncertainty?"
+    },
+    {
+      "raw_text": "Here are measurements from 5 trials:\n7.80 V\n8.65 V\n8.40 V\n7.86 V\n7.65 V\nUsing the range method, which is the average with uncertainty?\npoints\nLoading image…\nCaption\n7.9 ± 0.4 V\n8.3 ± 0.6 V\n9.00 ± 0.04 V\n8.1 ± 0.5 V\nFeedback for correct answers\nFeedback for incorrect answers\nFeedback for all answers\nAdd answer feedback\nDone"
+    },
+    {
+      "raw_text": "Loading image…\nCaption\n7.9 ± 0.4 V\n8.3 ± 0.6 V\n9.00 ± 0.04 V\n8.1 ± 0.5 V\nFeedback for correct answers\nFeedback for incorrect answers\nFeedback for all answers\nAdd answer feedback"
+    },
+    {
+      "raw_text": "Loading image…\nCaption\n7.9 ± 0.4 V\n8.3 ± 0.6 V\n9.00 ± 0.04 V\n8.1 ± 0.5 V"
+    },
+    {
+      "raw_text": "7.9 ± 0.4 V\n8.3 ± 0.6 V\n9.00 ± 0.04 V\n8.1 ± 0.5 V"
+    },
+    {
+      "raw_text": "7.9 ± 0.4 V"
+    },
+    {
+      "raw_text": "8.3 ± 0.6 V"
+    },
+    {
+      "raw_text": "9.00 ± 0.04 V"
+    },
+    {
+      "raw_text": "8.1 ± 0.5 V"
+    },
+    {
+      "raw_text": "After section 5\nContinue to next section\nGo to section 1 (An Introduction to Error Analysis )\nGo to section 2 (Precision and Accuracy)\nGo to section 3 (Uncertainty as a r...believable values)\nGo to section 4 (Estimating uncerta...r one measurement)\nGo to section 5 (Range method: Esti...iple measurements)\nGo to section 6 (Standard deviation...sian distribution)\nGo to section 7 (Standard Form)\nSubmit form"
+    },
+    {
+      "raw_text": "Which uncertainty should the students use to estimate the range of values they might get on their next voltage measurement?"
+    },
+    {
+      "raw_text": "Which uncertainty should the Monday students use to estimate the range of values they expect for the AVERAGE the Tuesday lab students will get when they conduct voltage measurements of the\nsame circuit\n?"
+    },
+    {
+      "raw_text": "Does standard deviation measure random error or systematic error?"
+    },
+    {
+      "raw_text": "Does standard error measure random error or systematic error?"
+    },
+    {
+      "raw_text": "After section 6\nContinue to next section\nGo to section 1 (An Introduction to Error Analysis )\nGo to section 2 (Precision and Accuracy)\nGo to section 3 (Uncertainty as a r...believable values)\nGo to section 4 (Estimating uncerta...r one measurement)\nGo to section 5 (Range method: Esti...iple measurements)\nGo to section 6 (Standard deviation...sian distribution)\nGo to section 7 (Standard Form)\nSubmit form"
+    },
+    {
+      "raw_text": "Section title (optional)\nStandard Form\n\n\n\n\n"
+    },
+    {
+      "raw_text": "Section title (optional)\nStandard Form"
+    },
+    {
+      "raw_text": "Standard Form"
+    },
+    {
+      "raw_text": "All but one of these has 1 significant figure. Which one is the odd one out with 2 significant figures?"
+    },
+    {
+      "raw_text": "Choose correct answers:\nWhich one of these is written in standard form?\n*\nWhich one of these is written in standard form?\npoints\nLoading image…\nCaption\n2362 ± 0.5 km\n2362.6 ± 4.6 km\n2362 ± 50 km\n2362.6 ± 5 km\n2362 ± 5 km\n2000 ± 0.5 km\n(2 × 10^3) ± 5 km\n(2.362 × 10^3) ± 5 km\n(2.362 × 10^6) ± 5000 m\nNone of them\nFeedback for correct answers\nFeedback for incorrect answers\nMake sure the format of the value matches the format of the uncertainty!\nFeedback for all answers\nAdd answer feedback\nDone"
+    },
+    {
+      "raw_text": "Which one of these is written in standard form?\n*"
+    },
+    {
+      "raw_text": "Which one of these is written in standard form?"
+    },
+    {
+      "raw_text": "Which one of these is written in standard form?\npoints\nLoading image…\nCaption\n2362 ± 0.5 km\n2362.6 ± 4.6 km\n2362 ± 50 km\n2362.6 ± 5 km\n2362 ± 5 km\n2000 ± 0.5 km\n(2 × 10^3) ± 5 km\n(2.362 × 10^3) ± 5 km\n(2.362 × 10^6) ± 5000 m\nNone of them\nFeedback for correct answers\nFeedback for incorrect answers\nMake sure the format of the value matches the format of the uncertainty!\nFeedback for all answers\nAdd answer feedback\nDone"
+    },
+    {
+      "raw_text": "Which one of these is written in standard form?\npoints"
+    },
+    {
+      "raw_text": "Loading image…\nCaption\n2362 ± 0.5 km\n2362.6 ± 4.6 km\n2362 ± 50 km\n2362.6 ± 5 km\n2362 ± 5 km\n2000 ± 0.5 km\n(2 × 10^3) ± 5 km\n(2.362 × 10^3) ± 5 km\n(2.362 × 10^6) ± 5000 m\nNone of them\nFeedback for correct answers\nFeedback for incorrect answers\nMake sure the format of the value matches the format of the uncertainty!\nFeedback for all answers\nAdd answer feedback"
+    },
+    {
+      "raw_text": "Loading image…\nCaption\n2362 ± 0.5 km\n2362.6 ± 4.6 km\n2362 ± 50 km\n2362.6 ± 5 km\n2362 ± 5 km\n2000 ± 0.5 km\n(2 × 10^3) ± 5 km\n(2.362 × 10^3) ± 5 km\n(2.362 × 10^6) ± 5000 m\nNone of them"
+    },
+    {
+      "raw_text": "2362 ± 0.5 km\n2362.6 ± 4.6 km\n2362 ± 50 km\n2362.6 ± 5 km\n2362 ± 5 km\n2000 ± 0.5 km\n(2 × 10^3) ± 5 km\n(2.362 × 10^3) ± 5 km\n(2.362 × 10^6) ± 5000 m\nNone of them"
+    },
+    {
+      "raw_text": "2362 ± 0.5 km"
+    },
+    {
+      "raw_text": "2362.6 ± 4.6 km"
+    },
+    {
+      "raw_text": "2362 ± 50 km"
+    },
+    {
+      "raw_text": "2362.6 ± 5 km"
+    },
+    {
+      "raw_text": "2362 ± 5 km"
+    },
+    {
+      "raw_text": "2000 ± 0.5 km"
+    },
+    {
+      "raw_text": "(2 × 10^3) ± 5 km"
+    },
+    {
+      "raw_text": "(2.362 × 10^3) ± 5 km"
+    },
+    {
+      "raw_text": "(2.362 × 10^6) ± 5000 m"
+    },
+    {
+      "raw_text": "List correct answer(s):\nWrite this in standard form:\n284629 ± 342 V\n(you may copy-paste the ± character or use +/-)\n*\nWrite this in standard form:\n284629 ± 342 V\n(you may copy-paste the ± character or use +/-)\npoints\nLoading image…\nCaption\nAdd a correct answer\nMark all other answers incorrect\nFeedback for correct answers\nFeedback for incorrect answers\nFeedback for all answers\nAdd answer feedback\nDone"
+    },
+    {
+      "raw_text": "Write this in standard form:\n284629 ± 342 V\n(you may copy-paste the ± character or use +/-)\n*"
+    },
+    {
+      "raw_text": "Write this in standard form:\n284629 ± 342 V\n(you may copy-paste the ± character or use +/-)"
+    },
+    {
+      "raw_text": "Write this in standard form:\n284629 ± 342 V\n(you may copy-paste the ± character or use +/-)\npoints\nLoading image…\nCaption\nAdd a correct answer\nMark all other answers incorrect\nFeedback for correct answers\nFeedback for incorrect answers\nFeedback for all answers\nAdd answer feedback\nDone"
+    },
+    {
+      "raw_text": "Write this in standard form:\n284629 ± 342 V\n(you may copy-paste the ± character or use +/-)\npoints"
+    },
+    {
+      "raw_text": "List correct answer(s):\nWrite this in standard form:\n.048294 ± 0.0003 V\n*\nWrite this in standard form:\n.048294 ± 0.0003 V\npoints\nLoading image…\nCaption\nAdd a correct answer\nMark all other answers incorrect\nFeedback for correct answers\nFeedback for incorrect answers\nFeedback for all answers\nAdd answer feedback\nDone"
+    },
+    {
+      "raw_text": "Write this in standard form:\n.048294 ± 0.0003 V\n*"
+    },
+    {
+      "raw_text": "Write this in standard form:\n.048294 ± 0.0003 V"
+    },
+    {
+      "raw_text": "Write this in standard form:\n.048294 ± 0.0003 V\npoints\nLoading image…\nCaption\nAdd a correct answer\nMark all other answers incorrect\nFeedback for correct answers\nFeedback for incorrect answers\nFeedback for all answers\nAdd answer feedback\nDone"
+    },
+    {
+      "raw_text": "Write this in standard form:\n.048294 ± 0.0003 V\npoints"
+    },
+    {
+      "raw_text": "Insights\nTotal points distribution"
+    },
+    {
+      "raw_text": "Total points distribution"
+    },
+    {
+      "raw_text": "What is the lowest believable value that corresponds to 6 \n± 1 days\nCopy chart\nNo responses yet for this question."
+    },
+    {
+      "raw_text": "What is the lowest believable value that corresponds to 6 \n± 1 days\nCopy chart"
+    },
+    {
+      "raw_text": "What is the highest believable value that corresponds to \n\n385000 ±\n\n1000 km?\n(The distance to the moon!)\n(Please use km as your units and include the units in your answer.)\nCopy chart\nNo responses yet for this question."
+    },
+    {
+      "raw_text": "What is the highest believable value that corresponds to \n\n385000 ±\n\n1000 km?\n(The distance to the moon!)\n(Please use km as your units and include the units in your answer.)\nCopy chart"
+    },
+    {
+      "raw_text": "A student measures the voltage of a battery 10 times using a digital multimeter and obtains the following results:\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\nWhat is the best way to communicate this set of measurements?\nCopy chart\nNo responses yet for this question."
+    },
+    {
+      "raw_text": "A student measures the voltage of a battery 10 times using a digital multimeter and obtains the following results:\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\nWhat is the best way to communicate this set of measurements?\nCopy chart"
+    },
+    {
+      "raw_text": "Which one of these is written in standard form?\nCopy chart\nNo responses yet for this question."
+    },
+    {
+      "raw_text": "Which one of these is written in standard form?\nCopy chart"
+    },
+    {
+      "raw_text": "Write this in standard form:\n284629 ± 342 V\n(you may copy-paste the ± character or use +/-)\nCopy chart\nNo responses yet for this question."
+    },
+    {
+      "raw_text": "Write this in standard form:\n284629 ± 342 V\n(you may copy-paste the ± character or use +/-)\nCopy chart"
+    },
+    {
+      "raw_text": "Write this in standard form:\n.048294 ± 0.0003 V\nCopy chart\nNo responses yet for this question."
+    },
+    {
+      "raw_text": "Write this in standard form:\n.048294 ± 0.0003 V\nCopy chart"
+    },
+    {
+      "raw_text": "(optional) What is your current und...ing of uncertainty in measurements?"
+    },
+    {
+      "raw_text": "(optional) Which of the following t...arning about regarding uncertainty?"
+    },
+    {
+      "raw_text": "Do physicists care about estimating...uncertainty for their measurements?"
+    },
+    {
+      "raw_text": "Suppose to conduct N trials of an e...s, your value will get better. Why?"
+    },
+    {
+      "raw_text": "What is the lowest believable value that corresponds to 6  ± 1 days"
+    },
+    {
+      "raw_text": "What is the highest believable valu... include the units in your answer.)"
+    },
+    {
+      "raw_text": "A student measures the voltage of a...mmunicate this set of measurements?"
+    },
+    {
+      "raw_text": "Which is a reasonable measurement with uncertainty for the paperclip?"
+    },
+    {
+      "raw_text": "Which is a reasonable measurement w... uncertainty for the pencil length?"
+    },
+    {
+      "raw_text": "Should you use the range method in ... physics lab if you have 10 trials?"
+    },
+    {
+      "raw_text": "Here are measurements from 5 trials...ch is the average with uncertainty?"
+    },
+    {
+      "raw_text": "Which uncertainty should the studen... on their next voltage measurement?"
+    },
+    {
+      "raw_text": "Which uncertainty should the Monday...e measurements of the same circuit?"
+    },
+    {
+      "raw_text": "All but one of these has 1 signific...one out with 2 significant figures?"
+    },
+    {
+      "raw_text": "Write this in standard form:\n\n28462...y-paste the ± character or use +/-)"
+    },
+    {
+      "raw_text": "Write this in standard form:\n\n.048294 ± 0.0003 V"
+    },
+    {
+      "raw_text": "An Introduction to Error Analysis\nTotal points\n3/25\nfor Hamilton Physics 100 / 200 lab.\nA tutorial to teach students about uncertainty and propagation of uncertainty."
+    },
+    {
+      "raw_text": "An Introduction to Error Analysis\nTotal points\n3/25"
+    },
+    {
+      "raw_text": "Total points\n3/25"
+    },
+    {
+      "raw_text": "(optional) Which of the following topics are you most interested in learning about regarding uncertainty?\n/\n0\nDefinition of uncertainty\nTypes of uncertainty (random vs. systematic)\nEstimating uncertainty for single measurements\nStandard deviation and standard error\nReporting uncertainty in scientific contexts using standard form\nGraphing and uncertainty\nPropagation of uncertainty\nJudging whether two values are essentially the same or significantly different\nOther:\nAdd individual feedback"
+    },
+    {
+      "raw_text": "Definition of uncertainty\nTypes of uncertainty (random vs. systematic)\nEstimating uncertainty for single measurements\nStandard deviation and standard error\nReporting uncertainty in scientific contexts using standard form\nGraphing and uncertainty\nPropagation of uncertainty\nJudging whether two values are essentially the same or significantly different\nOther:"
+    },
+    {
+      "raw_text": "Reporting uncertainty in scientific contexts using standard form"
+    },
+    {
+      "raw_text": "Uncertainty as a range of believable values\n1 of 4 points\n\"Tomorrow the highs will be in the 70s.\"\n\"It's about 4 and a half hours to New York City.\"\n\"We'll be ready in 5 to 7 business days.\"\nEach of the above uncertain predictions can be communicated as range or as a best value and an uncertainty.\nIn physics, we prefer to give the best value and uncertainty using the plus or minus (±) symbol.\nFor example:\n\"55 ± 4 m\" means the best value is 55 meters and the believable range is 51 to 59 meters.\nYou will almost always use uncertainty as a measure of the random error, not the systematic error, though it can be used for both."
+    },
+    {
+      "raw_text": "Uncertainty as a range of believable values\n1 of 4 points"
+    },
+    {
+      "raw_text": "What is the lowest believable value that corresponds to 6 \n± 1 days\n*\n/\n1\n3 days\nIncorrect\n4 days\n5 days\n6 days\nCorrect answer\n5 days\nAdd individual feedback"
+    },
+    {
+      "raw_text": "What is the lowest believable value that corresponds to 6 \n± 1 days\n*\n/\n1"
+    },
+    {
+      "raw_text": "\"Tomorrow the highs will be in the 70s.\" Please pick the best way to interpret this temperature.\n*\n/\n1\n75 ± 5 ºF\nCorrect\n75 ± 5 ºC\n70 ± 10 ºF\n70 ± 10 ºC\n80 ± 10 ºF\nAdd individual feedback"
+    },
+    {
+      "raw_text": "75 ± 5 ºF\nCorrect\n75 ± 5 ºC\n70 ± 10 ºF\n70 ± 10 ºC\n80 ± 10 ºF"
+    },
+    {
+      "raw_text": "75 ± 5 ºF\nCorrect"
+    },
+    {
+      "raw_text": "What is the highest believable value that corresponds to \n\n385000 ±\n\n1000 km?\n(The distance to the moon!)\n(Please use km as your units and include the units in your answer.)\n*\n/\n1\n345\nIncorrect\nCorrect answers\n386000 km\n386000km\n386000 kilometers\n386000kilometers\nAdd individual feedback"
+    },
+    {
+      "raw_text": "What is the highest believable value that corresponds to \n\n385000 ±\n\n1000 km?\n(The distance to the moon!)\n(Please use km as your units and include the units in your answer.)\n*\n/\n1"
+    },
+    {
+      "raw_text": "A student measures the voltage of a battery 10 times using a digital multimeter and obtains the following results:\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\nWhat is the best way to communicate this set of measurements?\n*\n/\n1\n1.5 V\n1.5 ± 0.0 V\n1.50 ± 0.05 V\nAdd individual feedback"
+    },
+    {
+      "raw_text": "A student measures the voltage of a battery 10 times using a digital multimeter and obtains the following results:\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\n1.5 V\nWhat is the best way to communicate this set of measurements?\n*\n/\n1"
+    },
+    {
+      "raw_text": "Which is a reasonable\nmeasurement with uncertainty\nfor the paperclip?\n*\n/\n1\nImage of paperclip and ruler. (Image credit:\nhttps://www.superteacherworksheets.com/measurement/ruler-\ncm1_AAAAA.pdf)\n3.75 cm\nIncorrect\n3.75\n3.75 ± 0.05 cm\n0.05 cm\n3.75 ± 0.2 cm\nCorrect answer\n3.75 ± 0.05 cm\nAdd individual feedback"
+    },
+    {
+      "raw_text": "3.75 cm\nIncorrect\n3.75\n3.75 ± 0.05 cm\n0.05 cm\n3.75 ± 0.2 cm"
+    },
+    {
+      "raw_text": "Correct answer\n3.75 ± 0.05 cm"
+    },
+    {
+      "raw_text": "Which is a reasonable\nmeasurement with uncertainty\nfor the pencil length?\n*\n/\n1\n4.5 ± 0.5 cm\n4 ± 1 cm\n4.10 ± 0.07 cm\n4.1 ± 0.0001 cm\nCorrect answer\n4.10 ± 0.07 cm\nAdd individual feedback"
+    },
+    {
+      "raw_text": "Correct answer\n4.10 ± 0.07 cm"
+    },
+    {
+      "raw_text": "Here are measurements from 5 trials:\n7.80 V\n8.65 V\n8.40 V\n7.86 V\n7.65 V\nUsing the range method, which is the average with uncertainty?\n*\n/\n1\n7.9 ± 0.4 V\n8.3 ± 0.6 V\n9.00 ± 0.04 V\n8.1 ± 0.5 V\nOther:\nAdd individual feedback"
+    },
+    {
+      "raw_text": "7.9 ± 0.4 V\n8.3 ± 0.6 V\n9.00 ± 0.04 V\n8.1 ± 0.5 V\nOther:"
+    },
+    {
+      "raw_text": "Standard Form\n0 of 4 points"
+    },
+    {
+      "raw_text": "Which one of these is written in standard form?\n*\n/\n1\n2362 ± 0.5 km\n2362.6 ± 4.6 km\n2362 ± 50 km\n2362.6 ± 5 km\n2362 ± 5 km\n2000 ± 0.5 km\n(2 × 10^3) ± 5 km\n(2.362 × 10^3) ± 5 km\n(2.362 × 10^6) ± 5000 m\nNone of them\nFeedback\nMake sure the format of the value matches the format of the uncertainty!\nAdd individual feedback"
+    },
+    {
+      "raw_text": "Which one of these is written in standard form?\n*\n/\n1"
+    },
+    {
+      "raw_text": "Write this in standard form:\n284629 ± 342 V\n(you may copy-paste the ± character or use +/-)\n*\n/\n1\nIncorrect\nAdd individual feedback"
+    },
+    {
+      "raw_text": "Write this in standard form:\n284629 ± 342 V\n(you may copy-paste the ± character or use +/-)\n*\n/\n1"
+    },
+    {
+      "raw_text": "Write this in standard form:\n.048294 ± 0.0003 V\n*\n/\n1\nIncorrect\nAdd individual feedback"
+    },
+    {
+      "raw_text": "Write this in standard form:\n.048294 ± 0.0003 V\n*\n/\n1"
+    }
+  ]
+}

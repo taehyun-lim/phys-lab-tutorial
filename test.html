@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conditional Interactive Quiz</title>
+<style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .question { margin-bottom: 20px; }
+    .feedback { margin-top: 5px; font-weight: bold; }
+    .correct { color: green; }
+    .incorrect { color: red; }
+    #q2 { display: none; } /* Hide Q2 until needed */
+</style>
+</head>
+<body>
+
+<h1>Interactive Quiz</h1>
+
+<!-- Question 1: Multiple Choice -->
+<div class="question" id="q1">
+    <p>1. Which letter is the second in the alphabet?</p>
+    <label><input type="radio" name="q1" value="a"> a</label><br>
+    <label><input type="radio" name="q1" value="b"> b</label><br>
+    <label><input type="radio" name="q1" value="c"> c</label><br>
+    <label><input type="radio" name="q1" value="d"> d</label><br>
+    <button id="submitQ1">Submit</button>
+    <div class="feedback" id="q1-feedback"></div>
+</div>
+
+<!-- Question 2: Numeric Calculation -->
+<div class="question" id="q2">
+    <p>2. Enter three numbers. The third should be the sum of the first two:</p>
+    <input type="number" id="num1" placeholder="First number"> +
+    <input type="number" id="num2" placeholder="Second number"> =
+    <input type="number" id="num3" placeholder="Sum"><br>
+    <button id="submitQ2">Submit</button>
+    <div class="feedback" id="q2-feedback"></div>
+</div>
+
+<script>
+// Question 1 checking
+document.getElementById('submitQ1').addEventListener('click', () => {
+    const selected = document.querySelector('input[name="q1"]:checked');
+    const feedback = document.getElementById('q1-feedback');
+
+    if (!selected) {
+        feedback.textContent = "⚠️ Please select an answer.";
+        feedback.className = "feedback incorrect";
+        return;
+    }
+
+    if (selected.value === 'b') {
+        feedback.textContent = "✅ Correct! Moving to Question 2...";
+        feedback.className = "feedback correct";
+
+        // Prevent changes to Q1 after correct
+        document.querySelectorAll('input[name="q1"]').forEach(input => input.disabled = true);
+        document.getElementById('submitQ1').disabled = true;
+
+        // Show next question
+        document.getElementById('q2').style.display = 'block';
+    } else {
+        // No answer reveal — just encouragement to try again
+        feedback.textContent = "❌ Incorrect. Please try again.";
+        feedback.className = "feedback incorrect";
+    }
+});
+
+// Question 2 checking
+document.getElementById('submitQ2').addEventListener('click', () => {
+    const n1 = parseFloat(document.getElementById('num1').value);
+    const n2 = parseFloat(document.getElementById('num2').value);
+    const n3 = parseFloat(document.getElementById('num3').value);
+    const feedback = document.getElementById('q2-feedback');
+
+    if (isNaN(n1) || isNaN(n2) || isNaN(n3)) {
+        feedback.textContent = "⚠️ Please fill in all three numbers.";
+        feedback.className = "feedback incorrect";
+        return;
+    }
+    if (n1 + n2 === n3) {
+        feedback.textContent = "✅ Correct calculation!";
+        feedback.className = "feedback correct";
+    } else {
+        feedback.textContent = `❌ Incorrect. Please try again.`;
+        feedback.className = "feedback incorrect";
+    }
+});
+</script>
+
+</body>
+</html>

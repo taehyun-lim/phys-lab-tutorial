@@ -1,0 +1,11 @@
+Gemini 8/12
+I would like to create an interactive tutorial webpage based on the attached html. There are seven sections. let each section but the first one, introduction, be collapsable and collapsed. Let the sections be uncollapsed once the student completes the section coming before it. closely follow and replicate all the text and questions. For questions, hide the questions except for the first one. Once the student gives the correct answer to the question preceding it, open and present the next question. let the student submit their answer for each question using a submit button. let on click submit trigger a immediate feedback telling whether the student was correct or not. if incorrect, encourage the student to venture another answer without showing the correct answer. if correct, show the student the next question. if the question is the final question of that section, present the next section. please count the number of tries the student had per question. also, please include all the text and optional choices for each section. please throughly check if you have completely and exactly replicated the html file.
+
+
+
+let all mathematical equations expressed in latex markup and properly processed using latex.
+
+
+
+
+Let the sections be unclickable before the student completes the section coming before it. For questions, hide the questions except for the first one. Once the student gives the correct answer to the question preceding it, open and present the next question. let the student submit their answer for each question using a submit button. let on click submit trigger a immediate feedback telling whether the student was correct or not. if incorrect, encourage the student to venture another answer without showing the correct answer. 

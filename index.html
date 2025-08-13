@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conditional Interactive Quiz (with Google Sheets Logging)</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 20px; }
+  .question { margin-bottom: 20px; }
+  .feedback { margin-top: 6px; font-weight: bold; }
+  .correct { color: green; }
+  .incorrect { color: red; }
+  #q1, #q2, #resetWrap { display: none; }
+  .row { margin: 6px 0; }
+  button { margin-top: 8px; }
+</style>
+</head>
+<body>
+
+<h1>Interactive Quiz</h1>
+
+<!-- Participant Email -->
+<div class="question" id="emailSection" style="display:block;">
+  <p>Enter your email to begin:</p>
+  <input type="email" id="emailInput" placeholder="your@email.com" required>
+  <div class="row">
+    <button id="startBtn">Start</button>
+  </div>
+  <div class="feedback" id="emailFeedback"></div>
+</div>
+
+<!-- Question 1: Multiple Choice -->
+<div class="question" id="q1">
+  <p>1. Which letter is the second in the alphabet?</p>
+  <label><input type="radio" name="q1" value="a"> a</label><br>
+  <label><input type="radio" name="q1" value="b"> b</label><br>
+  <label><input type="radio" name="q1" value="c"> c</label><br>
+  <label><input type="radio" name="q1" value="d"> d</label><br>
+  <button id="submitQ1">Submit</button>
+  <div class="feedback" id="q1-feedback"></div>
+</div>
+
+<!-- Question 2: Numeric Calculation -->
+<div class="question" id="q2">
+  <p>2. Enter three numbers. The third should be the sum of the first two:</p>
+  <input type="number" id="num1" placeholder="First number"> +
+  <input type="number" id="num2" placeholder="Second number"> =
+  <input type="number" id="num3" placeholder="Sum"><br>
+  <button id="submitQ2">Submit</button>
+  <div class="feedback" id="q2-feedback"></div>
+</div>
+
+<!-- Reset -->
+<div id="resetWrap">
+  <button id="resetBtn">Reset Quiz</button>
+</div>
+
+<script>
+// ====== CONFIG: Replace with your Apps Script Web App URL ======
+const LOG_ENDPOINT = 'https://script.google.com/a/macros/hamilton.edu/s/AKfycbzD3a0L6E6XXJrRExwoGA5Fv9Ll0yL47i4_pjZH8agiFU661ht-KqdmoqS89WWWjkdG/exec'; // e.g., https://script.google.com/macros/s/.../exec
+
+// Minimal helper to POST JSON to Apps Script endpoint
+async function logAttempt({ email, qid, payload, correct }) {
+  if (!LOG_ENDPOINT || LOG_ENDPOINT.includes('https://script.google.com/a/macros/hamilton.edu/s/AKfycbzD3a0L6E6XXJrRExwoGA5Fv9Ll0yL47i4_pjZH8agiFU661ht-KqdmoqS89WWWjkdG/exec')) return; // avoid errors before configured
+  try {
+    const res = await fetch(LOG_ENDPOINT, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, qid, payload, correct })
+    });
+    // Ignore response body for UX simplicity
+  } catch (e) {
+    // Swallow network/logging errors to not block the quiz
+    console.warn('Log error:', e);
+  }
+}
+
+// UI State
+const emailSection = document.getElementById('emailSection');
+const emailInput = document.getElementById('emailInput');
+const emailFeedback = document.getElementById('emailFeedback');
+const startBtn = document.getElementById('startBtn');
+
+const q1Div = document.getElementById('q1');
+const q1Feedback = document.getElementById('q1-feedback');
+const submitQ1 = document.getElementById('submitQ1');
+
+const q2Div = document.getElementById('q2');
+const q2Feedback = document.getElementById('q2-feedback');
+const submitQ2 = document.getElementById('submitQ2');
+
+const resetWrap = document.getElementById('resetWrap');
+const resetBtn = document.getElementById('resetBtn');
+
+let participantEmail = '';
+
+// Start after email
+startBtn.addEventListener('click', () => {
+  const value = (emailInput.value || '').trim();
+  if (!value || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) {
+    emailFeedback.textContent = '⚠️ Please enter a valid email.';
+    emailFeedback.className = 'feedback incorrect';
+    return;
+  }
+  participantEmail = value;
+  emailFeedback.textContent = '✅ Email captured. Proceed to Question 1.';
+  emailFeedback.className = 'feedback correct';
+
+  // Show Q1, and reset any previous state
+  q1Div.style.display = 'block';
+  resetWrap.style.display = 'block';
+});
+
+// Question 1 submit
+submitQ1.addEventListener('click', async () => {
+  const selected = document.querySelector('input[name="q1"]:checked');
+
+  if (!selected) {
+    q1Feedback.textContent = '⚠️ Please select an answer.';
+    q1Feedback.className = 'feedback incorrect';
+    return;
+  }
+
+  const isCorrect = selected.value === 'b';
+  // Log attempt to Sheets
+  await logAttempt({
+    email: participantEmail,
+    qid: 'Q1',
+    payload: `answer=${selected.value}`,
+    correct: isCorrect
+  });
+
+  if (isCorrect) {
+    q1Feedback.textContent = '✅ Correct! Moving to Question 2...';
+    q1Feedback.className = 'feedback correct';
+    // Lock Q1
+    document.querySelectorAll('input[name="q1"]').forEach(input => input.disabled = true);
+    submitQ1.disabled = true;
+    // Show Q2
+    q2Div.style.display = 'block';
+  } else {
+    q1Feedback.textContent = '❌ Incorrect. Please try again.';
+    q1Feedback.className = 'feedback incorrect';
+  }
+});
+
+// Question 2 submit
+submitQ2.addEventListener('click', async () => {
+  const n1 = parseFloat(document.getElementById('num1').value);
+  const n2 = parseFloat(document.getElementById('num2').value);
+  const n3 = parseFloat(document.getElementById('num3').value);
+
+  if (isNaN(n1) || isNaN(n2) || isNaN(n3)) {
+    q2Feedback.textContent = '⚠️ Please fill in all three numbers.';
+    q2Feedback.className = 'feedback incorrect';
+    return;
+  }
+
+  const isCorrect = (n1 + n2) === n3;
+
+  // Log attempt to Sheets
+  await logAttempt({
+    email: participantEmail,
+    qid: 'Q2',
+    payload: `n1=${n1}, n2=${n2}, n3=${n3}`,
+    correct: isCorrect
+  });
+
+  if (isCorrect) {
+    q2Feedback.textContent = '✅ Correct calculation!';
+    q2Feedback.className = 'feedback correct';
+    submitQ2.disabled = true;
+    document.getElementById('num1').disabled = true;
+    document.getElementById('num2').disabled = true;
+    document.getElementById('num3').disabled = true;
+  } else {
+    q2Feedback.textContent = '❌ Incorrect. Please try again.';
+    q2Feedback.className = 'feedback incorrect';
+  }
+});
+
+// Reset
+resetBtn.addEventListener('click', () => {
+  // Clear email
+  participantEmail = '';
+  emailInput.value = '';
+  emailFeedback.textContent = '';
+  emailFeedback.className = 'feedback';
+
+  // Reset Q1
+  document.querySelectorAll('input[name="q1"]').forEach(input => {
+    input.checked = false;
+    input.disabled = false;
+  });
+  q1Feedback.textContent = '';
+  q1Feedback.className = 'feedback';
+  submitQ1.disabled = false;
+
+  // Reset Q2
+  ['num1','num2','num3'].forEach(id => {
+    const el = document.getElementById(id);
+    el.value = '';
+    el.disabled = false;
+  });
+  q2Feedback.textContent = '';
+  q2Feedback.className = 'feedback';
+  submitQ2.disabled = false;
+
+  // Show only email section
+  emailSection.style.display = 'block';
+  q1Div.style.display = 'none';
+  q2Div.style.display = 'none';
+  resetWrap.style.display = 'none';
+});
+
+// Initialize only email section visible
+(function init() {
+  emailSection.style.display = 'block';
+})();
+</script>
+
+</body>
+</html>
