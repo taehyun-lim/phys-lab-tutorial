@@ -1,0 +1,5 @@
+---
+description: Don't change the content of the instruction unless explicitly asked.
+globs:
+alwaysApply: true
+---

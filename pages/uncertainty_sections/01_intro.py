@@ -1,16 +1,33 @@
 import streamlit as st
+import sys
+import os
+
+# Add the lib directory to the path so we can import our trial tracker
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..', 'lib'))
+
+# Import our trial tracker
+from trial_tracker import trial_tracker
 
 def render_intro_section():
+    """Render the introduction section"""
+    # Initialize the trial tracker session state
+    trial_tracker.initialize_session_state()
+    
     st.header("An Introduction to Error Analysis")
     
+    # Optional questions - ALWAYS visible, but truly optional
     st.subheader("Optional Questions")
     st.markdown("**What is your current understanding of uncertainty in measurements?**")
     q1_understanding = st.text_area(
         "Share your thoughts (optional)",
         placeholder="Describe what you currently know about uncertainty in measurements...",
-        key="intro_understanding",
+        key="intro_optional_understanding",
         height=100
     )
+    
+    # Record the optional response
+    if q1_understanding:
+        trial_tracker.record_optional_response("intro_optional_understanding", q1_understanding)
     
     st.markdown("**Which of the following topics are you most interested in learning about regarding uncertainty?**")
     q1_topics = st.multiselect(
@@ -26,11 +43,15 @@ def render_intro_section():
             "Judging whether two values are essentially the same or significantly different",
             "Other"
         ],
-        key="intro_topics",
+        key="intro_optional_topics",
     )
+    
+    # Record the optional response
     if q1_topics:
+        trial_tracker.record_optional_response("intro_optional_topics", q1_topics)
         st.info(f"You selected: {', '.join(q1_topics)}")
     
+    # Main content - ALWAYS visible (no requirement for optional questions)
     st.markdown(
         """
         **"A man with a watch knows what time it is. A man with two watches is never sure."** (Segal's 'law')
@@ -47,12 +68,21 @@ def render_intro_section():
         """
     )
 
-    st.subheader("Quick Check")
+    #st.subheader("Quick Check")
     q1_3 = st.radio(
         "Do physicists care about estimating uncertainty for their measurements?",
         ["Yes", "No"],
         index=None,
         key="intro_q3",
     )
+    
+    question_id = "intro_q3"
+    
     if st.button("Check Answer", key="intro_q3_btn"):
-        st.success("Correct! Physicists almost always include uncertainty estimates.") if q1_3 == "Yes" else st.error("Try again")
+        is_correct = q1_3 == "Yes"
+        trial_tracker.record_attempt(question_id, is_correct, q1_3, "intro")
+        
+        if is_correct:
+            st.success("Correct! Physicists almost always include uncertainty estimates.")
+        else:
+            st.error("Try again")
