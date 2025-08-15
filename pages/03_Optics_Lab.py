@@ -4,7 +4,7 @@ import streamlit as st
 
 st.set_page_config(page_title="03 – Optics Lab", page_icon="🔭", layout="wide")
 
-st.title("03 – Optics Lab: Thin Lens with Range-Method Uncertainty")
+st.title("Optics Lab: Thin Lens with Range-Method Uncertainty")
 st.caption("Enter positions in cm. This tool checks your results and shows how the calculations are done.")
 
 

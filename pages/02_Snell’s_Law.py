@@ -4,7 +4,7 @@ import streamlit as st
 
 st.set_page_config(page_title="02 – Snell's Law", page_icon="🔦", layout="wide")
 
-st.title("02 – Snell's Law with Uncertainty (Range Method)")
+st.title("Snell's Law with Uncertainty (Range Method)")
 st.caption("Enter angles in degrees. This tool checks your results and shows how the calculations are done.")
 
 

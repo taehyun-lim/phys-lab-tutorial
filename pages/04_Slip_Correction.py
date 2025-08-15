@@ -4,7 +4,7 @@ import streamlit as st
 
 st.set_page_config(page_title="04 – Slip Correction", page_icon="💨", layout="wide")
 
-st.title("04 – Slip Correction (Cunningham) with Iteration")
+st.title("Slip Correction (Cunningham) with Iteration")
 st.caption("Enter physical parameters and a measured terminal speed. This tool checks your results and shows the iterative slip-correction steps.")
 
 
